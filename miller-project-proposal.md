@@ -9,7 +9,6 @@ The proposed program would allow researchers to choose between analyzing an inpu
 ## Program Outputs
 The program would return simulation data and metadata in CSV format. This file would include the objective evaluation, simulation time, number of function evaluations performed, energy produced, farm cost, wind speeds at each turbine for each wind case, turbine coordinates, and a summary of the input parameters selected before evaluation. 
 
------------------ | --------------
 **User Selected** | **User Input**
 ----------------- | --------------
 **Optimization Algorithm**
@@ -29,4 +28,3 @@ The program would return simulation data and metadata in CSV format. This file w
     Profit | optimization algorithm, farm life, cost model, wake model
     LCOE  | optimization algorithm, farm life, cost model, wake model
     Cost  | optimization algorithm, cost model
------------------ | --------------
