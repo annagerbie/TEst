@@ -1,4 +1,4 @@
-# Miller, Annalise              ME 599             April 8, 2018
+# Project Proposal for ME 599: Annalise Miller, April 8, 2018
 
 ## Motivation
 As a graduating master's student, I have already developed the functionality of codes related to the specific case studies that I will include in my thesis. While most individual codes perform wind farm layout optimization or hard-coded analysis, they each do so using different commands, data structures, optimization algorithms, and input cost and wake models. While the various codes contain useful functions for future research, such as the optimization algorithms and input models, a future researcher would have to devote weeks to understanding the organization and operation of a code before they could restructure it for new analyses. The goal of this project is to develop a program combining and modularizing my existing code for accessibilty and use in future research by other researchers. This would involve reorganizing the codes I have developed individually, standardizing input requirements and output parameters, and allowing users to specify input data and select relevant input models.
