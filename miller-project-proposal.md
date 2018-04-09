@@ -9,22 +9,22 @@ The proposed program would allow researchers to choose between analyzing an inpu
 ## Program Outputs
 The program would return simulation data and metadata in CSV format. This file would include the objective evaluation, simulation time, number of function evaluations performed, energy produced, farm cost, wind speeds at each turbine for each wind case, turbine coordinates, and a summary of the input parameters selected before evaluation. 
 
-**User Selected** | **User Input**
------------------ | --------------
-**Optimization Algorithm** | Inputs
-    Genetic Algorithm | Mesh size, mutation rate, percent elite, percent mateable, population size, no-change iterations to convergence
-    Paritcle Swarm Optimization | swarm size, self weight, global weight, no-change iterations to convergence
-    Extended Pattern Search & initial step size, min step size, popping attepts, num turbines popped, max popping attempts per turbine
-**Cost Model** | Inputs
-    Onshore Cost Model | None
-    Offshore Cost Model | water depth
-**Wake Model** | Inputs
-    3D PARK wake model with or without nested wake provision | None
-    2D PARK wake model with or without nested wake provision | None
-    2D RANS-based CFD wake model | None
-**Objective Function** | Inputs
-    Annual Energy Production | optimization algorithm, wake model
-    Cost-per-kilowatt | optimization algorithm, farm life, cost model, wake model
-    Profit | optimization algorithm, farm life, cost model, wake model
-    LCOE  | optimization algorithm, farm life, cost model, wake model
-    Cost  | optimization algorithm, cost model
+| **User Selected** | **User Input** |
+| ----------------- | -------------- |
+| **Optimization Algorithm** | Inputs |
+|    Genetic Algorithm | Mesh size, mutation rate, percent elite, percent mateable, population size, no-change iterations to convergence |
+|    Paritcle Swarm Optimization | swarm size, self weight, global weight, no-change iterations to convergence |
+|    Extended Pattern Search & initial step size, min step size, popping attepts, num turbines popped, max popping attempts per turbine |
+| **Cost Model** | Inputs |
+|    Onshore Cost Model | None |
+|    Offshore Cost Model | water depth |
+| **Wake Model** | Inputs |
+|    3D PARK wake model with or without nested wake provision | None |
+|    2D PARK wake model with or without nested wake provision | None |
+|    2D RANS-based CFD wake model | None |
+| **Objective Function** | Inputs |
+|    Annual Energy Production | optimization algorithm, wake model |
+|    Cost-per-kilowatt | optimization algorithm, farm life, cost model, wake model |
+|    Profit | optimization algorithm, farm life, cost model, wake model |
+|    LCOE  | optimization algorithm, farm life, cost model, wake model |
+|    Cost  | optimization algorithm, cost model |
