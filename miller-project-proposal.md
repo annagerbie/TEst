@@ -31,4 +31,5 @@ The program would return simulation data and metadata in CSV format. This file w
 
 ## References
 [1]  B.  L.  DuPont,  J.  Cagan,  and  P.  Moriarty,  “Optimization  of  Wind  Farm  Layout  and  Wind  TurbineGeometry Using a Multi-Level Extended Pattern Search Algorithm That Accounts for Variation in WindShear Profile Shape,”38th Design Automation Conference, vol. 3, Parts A and B, p. 243, 2012. [Online].Available:  http://www.scopus.com/inward/record.url?eid=2-s2.0-84884605472&partnerID=tZOtx3y1
+
 [2]  B. D. Annalise Miller, Caitlin Forinash, “An extended pattern search approach for optimizing floatingoffshore wind farms,”In Review, 2018.
